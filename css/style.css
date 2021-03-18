@@ -82,6 +82,10 @@ body {
   display: none !important;
 }
 
+.desktop-element {
+  display: none;
+}
+
 .accent-btn {
   background: var(--c-accent);
   font-weight: bold;
@@ -1061,6 +1065,10 @@ body {
     display: block !important;
   }
 
+  .desktop-element {
+    display: block;
+  }
+
   .front-page-my-name {
     font-size: 36px;
     line-height: 43px;
@@ -1425,7 +1433,7 @@ body {
   }
 
   .desktop-element {
-    display: none;
+    display: block;
   }
 
   .front-page-laptop {
@@ -1453,7 +1461,7 @@ body {
     width: 256px;
     z-index: 1;
     right: 190px;
-    bottom: 315px;
+    bottom: -135px;
   }
 
   /* Galleries */
@@ -1649,6 +1657,7 @@ body {
     justify-content: space-between;
     margin: 50px 20px;
   }
+
   .footer-main-content {
     width: calc(50% + 100px);
   }
